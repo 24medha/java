@@ -1,14 +1,22 @@
 public class Main {
-    public static void A(int i, int j) {
-        System.out.println(i+j);
-    }
-    public static void A(int i, int j , int k) {
-        System.out.println(i+j-k);
-    }
 
 public static void main(String[] args) {
     System.out.println("\033[H\033[2J");
-    A(2,3,4);
+   
+
+    System.out.println(java.lang.Math.ceil(7.00001));
+    System.out.println(java.lang.Math.floor(7.789));
+    System.out.println(java.lang.Math.round(7.5));
+    System.out.println(java.lang.Math.round(7.4));
+
+    System.out.println("-- - - - - - -");
+
+
+    System.out.println(java.lang.Math.random());
+
+
+
+
 }
     
 }
