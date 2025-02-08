@@ -12,7 +12,7 @@ public static void main(String[] args) {
     System.out.println("-- - - - - - -");
 
 
-    System.out.println(java.lang.Math.random());
+    System.out.println((int) java.lang.Math.ceil(java.lang.Math.random()*8999)+1000);
 
 
 
